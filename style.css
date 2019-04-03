@@ -13,23 +13,14 @@ body {
       margin: 0 auto;
       padding-top: 3%; }
       body header .container ul {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
         justify-content: space-between;
         list-style: none;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center; }
       body header .container .header {
         background: #fff;
         border-radius: 30px;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -ms-flex-pack: distribute;
         justify-content: space-around;
         font-size: 14px;
         font-weight: 600;
@@ -40,24 +31,12 @@ body {
         body header .container .header .navbar {
           width: 95%;
           text-transform: uppercase;
-          display: -webkit-box;
-          display: -ms-flexbox;
           display: flex;
-          -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
           justify-content: space-between;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
           align-items: center; }
           body header .container .header .navbar .leftside {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
             justify-content: space-between;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
             align-items: center;
             width: 45%; }
             body header .container .header .navbar .leftside .logo img {
@@ -89,18 +68,9 @@ body {
           color: #31607e;
           margin-bottom: 100px; }
       body header .container .header_footer {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
         justify-content: space-between;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
         flex-direction: row;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
         padding-bottom: 40px;
         margin-bottom: 120px; }
@@ -110,8 +80,6 @@ body {
           body header .container .header_footer ul li {
             padding-left: 10px; }
         body header .container .header_footer .tagline {
-          display: -webkit-box;
-          display: -ms-flexbox;
           display: flex;
           color: #fff; }
           body header .container .header_footer .tagline img {
@@ -126,53 +94,39 @@ body {
       margin: 0;
       padding: 0; }
     body .header_hidden .register .register_value {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: row;
       flex-direction: row;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
       align-items: center; }
     body .header_hidden .register button {
       border: none;
       background: #fff;
       color: #4e4e4e; }
-  body .title .content {
+  body .title-section .content {
     font-family: 'Helvetica Neue', sans-serif;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     text-align: center; }
-    body .title .content .img {
+    body .title-section .content .img {
       margin-bottom: 55px; }
-    body .title .content .content_title {
+    body .title-section .content .content_title {
       color: #31607e;
       font-size: 30px;
       margin-bottom: 20px; }
-    body .title .content p {
+    body .title-section .content p {
       color: #a3a3a3;
       font-size: 16px; }
-      body .title .content p button {
+      body .title-section .content p button {
         border: none;
         background: #e5e5e5;
         color: #a3a3a3;
         padding: 7px 15px;
         border-radius: 20px; }
-        body .title .content p button i {
+        body .title-section .content p button i {
           color: #727272;
           margin: 0;
           padding: 0; }
-    body .title .content .start {
+    body .title-section .content .start {
       border: none;
       background: #2f5f7c;
       color: #fff;
@@ -198,7 +152,7 @@ body {
     display: none; } }
 
 @media (min-device-width: 100px) and (max-device-width: 414px) {
-  header, .title {
+  header, .title-section {
     display: none; }
   body {
     width: 100%;
